@@ -1,6 +1,7 @@
 # SynthSelect
 Synthetic Datasets for benchmarking feature selection algorithms as from the paper Development of Synthetic Data Benchmarks for Evaluating Feature Selection Algorithms published in MDPI <link>.
 
+# Dataset Details
 <h2>Dataset summary:</h2>
 
 |Dataset|Relevant Features|Redundant Features|Irrelevant Features|Instances|Target Variable Equation|
@@ -18,4 +19,33 @@ Synthetic Datasets for benchmarking feature selection algorithms as from the pap
 <h2>Equation 1:</h2>
 <img src="./Images/5ClassMulticut.png" alt="5ClassMultiCut" title="5Class MultiCut Equation">
 <h2>Equation 2:</h2>
-<img src="./Images/50ClassMulticut.png" alt="10ClassMultiCut" title="10Class MultiCut Equation">
+<img src="./Images/10ClassMulticut.png" alt="10ClassMultiCut" title="10Class MultiCut Equation">
+
+
+# How To Use The Library
+## How to load new data
+
+```
+from Synth_Select import load_dataset
+df=load_dataset(name)
+```
+"name" is the name of the dataset to load. Must be either of:
+<ol>
+<li> '10_class_multicut'<\li> 
+<li> '4D_AND'<\li>
+<li> '5_class_multicut'<\li>
+<li> '5D_XOR'<\li>
+<li> 'cone'<\li>
+<li> 'double_spiral'<\li>
+<li> 'hypersphere_3D'<\li>
+<li> 'trig'<\li>
+<li> 'y=x'<\li>
+<li> 'yinyang'<\li>
+<\ol>
+
+  
+## How to add new columns
+### Numeric Columns
+
+
+### Categorical Columns
