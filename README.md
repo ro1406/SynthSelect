@@ -17,5 +17,6 @@ Synthetic Datasets for benchmarking feature selection algorithms as from the pap
 |10 multi-cut|6|20|100|500|Equation 2|
 <h2>Equation 1:</h2>
 ![Alt text]("./Images/5ClassMulticut.png")
+<img src="./Images/5ClassMulticut.png" alt="5ClassMultiCut" title="5Class MultiCut Equation">
 <h2>Equation 2:</h2>
 ![Alt text]("./Images/10ClassMulticut.png")
