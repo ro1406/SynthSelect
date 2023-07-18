@@ -31,21 +31,41 @@ df=load_dataset(name)
 ```
 "name" is the name of the dataset to load. Must be either of:
 <ol>
-<li> '10_class_multicut'<\li> 
-<li> '4D_AND'<\li>
-<li> '5_class_multicut'<\li>
-<li> '5D_XOR'<\li>
-<li> 'cone'<\li>
-<li> 'double_spiral'<\li>
-<li> 'hypersphere_3D'<\li>
-<li> 'trig'<\li>
-<li> 'y=x'<\li>
-<li> 'yinyang'<\li>
-<\ol>
+<li> '10_class_multicut'
+<li> '4D_AND'
+<li> '5_class_multicut'
+<li> '5D_XOR'
+<li> 'cone'
+<li> 'double_spiral'
+<li> 'hypersphere_3D'
+<li> 'trig'
+<li> 'y=x'
+<li> 'yinyang'
+</ol>
 
-  
 ## How to add new columns
 ### Numeric Columns
-
-
+```
+from Synth_Select import addIrrelevant,addRedundant
+df=addIrrelevant(df,numIrrelevantCols=5,distributions=['normal','gamma','exponential'])
+df=addRedundant(df,numRedFeats=5)
+```
+distribution_names must be one of:
+<ol>
+<li> "normal"
+<li> "gamma"
+<li> "exponential"
+</ol>
+  
 ### Categorical Columns
+```
+from Synth_Select import addIrrelevantCat,addRedundantCat
+df=addIrrelevantCat(df,numIrrelevantCols=5,distributions=['normal','gamma','exponential'])
+df=addRedundantCat(df,numRedFeats=5)
+```
+distribution_names must be one of:
+<ol>
+<li> "normal"
+<li> "gamma"
+<li> "exponential"
+</ol>
