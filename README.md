@@ -72,7 +72,7 @@ distribution_names must be one of:
 
 # Cite This Work:
 ```
-@Article{synthetic_data_1,
+@Article{SynthSelect,
 AUTHOR = {Mitra, Rohan and Ali, Eyad and Varam, Dara and Sulieman, Hana and Kamalov, Firuz},
 TITLE = {Variable Selection in Data Analysis: A Synthetic Data Toolkit},
 JOURNAL = {Mathematics},
