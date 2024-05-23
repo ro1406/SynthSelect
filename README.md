@@ -69,3 +69,19 @@ distribution_names must be one of:
 <li> "gamma"
 <li> "exponential"
 </ol>
+
+# Cite This Work:
+```
+@Article{synthetic_data_1,
+AUTHOR = {Mitra, Rohan and Ali, Eyad and Varam, Dara and Sulieman, Hana and Kamalov, Firuz},
+TITLE = {Variable Selection in Data Analysis: A Synthetic Data Toolkit},
+JOURNAL = {Mathematics},
+VOLUME = {12},
+YEAR = {2024},
+NUMBER = {4},
+ARTICLE-NUMBER = {570},
+URL = {https://www.mdpi.com/2227-7390/12/4/570},
+ISSN = {2227-7390},
+DOI = {10.3390/math12040570}
+}
+```
